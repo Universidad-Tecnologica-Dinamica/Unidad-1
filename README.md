@@ -29,3 +29,18 @@
     </server>
   </servers>
 </settings>"
+
+
+
+
+
+[code language=»css»]
+Serial.print("Found ID #");
+Serial.print(finger.fingerID);
+Serial.print("With confidence of");Serial.println(finger.confidence); // Escribir el codigo aqui
+return finger.fingerID;
+[/code]
+
+
+
+
